@@ -24,9 +24,8 @@ async function getUsers() {
   setUser(response.data);
 }
   return (
-      <div className="columns mt-5 is-centered">
-        <div className="column is-half">
-          <Link to="/add-user" className="button is-success mb-3">Add User</Link>
+      <div className="columns mt-5 is-centered">        <div className="column is-half">
+          <Link to="/add-user" className="button is-primary mb-3">Add User</Link>
             <table className="table is-striped is-hoverable is-fullwidth">
               <thead>
                 <tr>

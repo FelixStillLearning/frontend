@@ -45,9 +45,8 @@ const navigate = useNavigate();
                     <input type="text" className="input" value={stock} 
                     onChange={(e)=> setStock(e.target.value)}  placeholder="Stock"/>
                 </div>
-            </div>
-             <div className="field">
-               <button type='submit' className='button is-success'>Save</button>
+            </div>             <div className="field">
+               <button type='submit' className='button is-primary'>Save</button>
             </div>
         </form>
     </div>

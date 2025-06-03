@@ -49,9 +49,8 @@ const navigate = useNavigate();
                         </select>
                     </div>
                 </div>
-            </div>
-             <div className="field">
-               <button type='submit' className='button is-success'>Save</button>
+            </div>             <div className="field">
+               <button type='submit' className='button is-primary'>Save</button>
             </div>
         </form>
     </div>

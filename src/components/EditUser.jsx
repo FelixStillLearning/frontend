@@ -62,9 +62,8 @@ const EditUser = () => {
                                 </select>
                             </div>
                         </div>
-                    </div>
-                    <div className="field">
-                        <button type='submit' className='button is-success'>Update</button>
+                    </div>                    <div className="field">
+                        <button type='submit' className='button is-primary'>Update</button>
                     </div>
                 </form>
             </div>

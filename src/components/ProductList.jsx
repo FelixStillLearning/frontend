@@ -24,9 +24,8 @@ async function getProducts() {
   setProducts(response.data);
 }
   return (
-      <div className="columns mt-5 is-centered">
-        <div className="column is-half">
-          <Link to="/add-product" className="button is-success mb-3">Add Product</Link>
+      <div className="columns mt-5 is-centered">        <div className="column is-half">
+          <Link to="/add-product" className="button is-primary mb-3">Add Product</Link>
             <table className="table is-striped is-hoverable is-fullwidth">
               <thead>
                 <tr>
